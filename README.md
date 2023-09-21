@@ -32,15 +32,21 @@ python generate.py -p <prompt>
 
 **Prompt**: A version of Sonic the Hedgehog was developed by Ancient and released in 1991 for Sega’s 8-bit consoles, the Master System and Game
 
+| Decoding Method | Output |
+| --- | --- |
 | Beam Search | **A version of Sonic the Hedgehog was developed by Ancient and released in 1991 for Sega’s 8-bit consoles, the Master System and Game** Gear.<br><br>Sonic the Hedgehog (1991)<br><br>Sonic the Hedgehog (1991)<br><br>Sonic the Hedgehog (1991)<br><br>Sonic the Hedgehog (1991)<br><br>Sonic the Hedgehog ( |
 | Contrastive | **A version of Sonic the Hedgehog was developed by Ancient and released in 1991 for Sega’s 8-bit consoles, the Master System and Game** Gear, with the third level named after his blue, round ball of light, the Blue Chaos Emerald, the Super Chaos Emerald's light-up stage. This level, in its first two segments, has a central, open stage in the sky. A bridge, on a very narrow and high-wire, will open, with an upside down bridge.<br><br>A second, and a very short |
 
 **Prompt**: The 40-metre-long (131 ft 3 in) hangar was 20 metres (65 ft 7 in) wide forward and 11 metres
 
+| Decoding Method | Output |
+| --- | --- |
 | Beam Search | **The 40-metre-long (131 ft 3 in) hangar was 20 metres (65 ft 7 in) wide forward and 11 metres** (36 ft 3 in) wide in the rear.<br><br>The hangar was designed to accommodate a single-seat, single-pilot aircraft.<br><br>The hangar was designed to accommodate a single-seat, single-pilot aircraft.<br><br>The |
 | Contrastive | **The 40-metre-long (131 ft 3 in) hangar was 20 metres (65 ft 7 in) wide forward and 11 metres** (35 ft 9 in) in back and could house an F-106 in two vertical or a VF-86D in two horizontal.<br><br>It also carried the TACAN-6 (TRANSPORTER AIMED ANTENNAS) communications and electronic equipment that the Navy and USMC would later equip to help their ground units to spot the Soviet's VVS V |
 
 **Prompt**: The old Bintulu airport was built in 1955 in the town centre. It once held the Guinness World Record of nearest airport to town. On 19 December
 
+| Decoding Method | Output |
+| --- | --- |
 | Beam Search | The old Bintulu airport was built in 1955 in the town centre. It once held the Guinness World Record of nearest airport to town. On 19 December 2013, the airport was closed due to lack of demand.<br><br>The new airport is located on the outskirts of Bintulu. It was built on the site of the old Bintulu airport.<br><br>The new Bintulu airport |
 | Contrastive | The old Bintulu airport was built in 1955 in the town centre. It once held the Guinness World Record of nearest airport to town. On 19 December the new Bintulu International Airport, the new international gateway, is now in full swing and has just become the new major international gateway, in its first full day. It's an international gateway. We can do international, and domestic and business and private and some things. But, in a country, I can do two, and then, for my private and some of the government's, and |
