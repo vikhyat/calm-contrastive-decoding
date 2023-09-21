@@ -50,3 +50,9 @@ python generate.py -p <prompt>
 | --- | --- |
 | Beam Search | The old Bintulu airport was built in 1955 in the town centre. It once held the Guinness World Record of nearest airport to town. On 19 December 2013, the airport was closed due to lack of demand.<br><br>The new airport is located on the outskirts of Bintulu. It was built on the site of the old Bintulu airport.<br><br>The new Bintulu airport |
 | Contrastive | The old Bintulu airport was built in 1955 in the town centre. It once held the Guinness World Record of nearest airport to town. On 19 December the new Bintulu International Airport, the new international gateway, is now in full swing and has just become the new major international gateway, in its first full day. It's an international gateway. We can do international, and domestic and business and private and some things. But, in a country, I can do two, and then, for my private and some of the government's, and |
+
+## Conclusion
+
+We find that it is possible to implement contrastive decoding using early exit. This method doesn't require any additional training, and does not require running inference on a smaller language model, leading to a smaller compute footprint. The results we get are a significant improvement over the repetitiveness of beam search, and qualitatively appear to be similar to the results in the contrastive decoding paper. Further work is needed to evaluate the quality of the results quantitatively.
+
+Not requiring a smaller language model to run inference on is a significant advantage of this approach. This means it is possible to use this on larger models like Llama 2 7B, where a smaller amateur model is not available.
