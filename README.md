@@ -1,2 +1,3 @@
-# calm-contrastive-decoding
-Confident Adaptive Language Modeling 🫶 Contrastive Decoding
+# Confident Adaptive Language Modeling 🫶 Contrastive Decoding
+
+The [Contrastive Decoding](https://arxiv.org/abs/2210.15097) paper describes a technique to product higher quality text from language models by using the difference between predictions from a large LM (called the expert, e.g. OPT-13B), and a small LM (called the amateur, e.g. OPT-125M). This repository contains the code for an experiment to see whether we can use early exit, as described in the [Confident Adaptive Language Modeling](https://arxiv.org/abs/2207.07061) paper, in lieu of the amateur model to reduce the computational cost of contrastive decoding.
