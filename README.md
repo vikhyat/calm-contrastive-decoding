@@ -15,3 +15,13 @@ The tied weights introduces a complication because the CALM paper uses an 8 laye
 Here's an example of how logit probabilities evolve as we move through layers of the model for a sample input sequence.
 
 ![Early Exit Probabilities](assets/early_exit_probabilities.jpg)
+
+### Contrastive Decoding
+
+The key idea behind the contrastive decoding technique is to push model predictions away from predictions made by the smaller language model. However this introduces false positives and negatives for tokens that have low probability in the expert model. To address this, we filter out tokens that have a probability lower than α times the maximum token probability at that position. The paper uses α = 0.1.
+
+Once low probability tokens are filtered out, tokens are scored using the difference between log probabilities from the expert and amateur models. The paper also finds that a temperature of 0.5 on the amateur model provides the best results. Beam search (with a beam size of 5) is used to find the best sequence of tokens.
+
+## Results
+
+(coming soon)
