@@ -48,8 +48,8 @@ python generate.py -p <prompt>
 
 | Decoding Method | Output |
 | --- | --- |
-| Beam Search | The old Bintulu airport was built in 1955 in the town centre. It once held the Guinness World Record of nearest airport to town. On 19 December 2013, the airport was closed due to lack of demand.<br><br>The new airport is located on the outskirts of Bintulu. It was built on the site of the old Bintulu airport.<br><br>The new Bintulu airport |
-| Contrastive | The old Bintulu airport was built in 1955 in the town centre. It once held the Guinness World Record of nearest airport to town. On 19 December the new Bintulu International Airport, the new international gateway, is now in full swing and has just become the new major international gateway, in its first full day. It's an international gateway. We can do international, and domestic and business and private and some things. But, in a country, I can do two, and then, for my private and some of the government's, and |
+| Beam Search | **The old Bintulu airport was built in 1955 in the town centre. It once held the Guinness World Record of nearest airport to town. On 19 December** 2013, the airport was closed due to lack of demand.<br><br>The new airport is located on the outskirts of Bintulu. It was built on the site of the old Bintulu airport.<br><br>The new Bintulu airport |
+| Contrastive | **The old Bintulu airport was built in 1955 in the town centre. It once held the Guinness World Record of nearest airport to town. On 19 December** the new Bintulu International Airport, the new international gateway, is now in full swing and has just become the new major international gateway, in its first full day. It's an international gateway. We can do international, and domestic and business and private and some things. But, in a country, I can do two, and then, for my private and some of the government's, and |
 
 ## Conclusion
 
